@@ -54,18 +54,18 @@ export function GallerySection() {
       <div className="absolute inset-x-0 top-0 -z-10 h-full bg-hero opacity-20 mix-blend-multiply" />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="mb-16 max-w-3xl"
-        >
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className="mx-auto mb-16 max-w-4xl text-center"
+          >
           <p className="text-xs uppercase tracking-[0.25em] text-primary font-semibold">Our Portfolio</p>
           <h2 className="mt-3 text-4xl font-extrabold sm:text-5xl lg:text-6xl">
             <span className="text-gradient">Frames,</span>{" "}
             <span className="text-gradient-gold">faces & our store.</span>
           </h2>
-          <p className="mt-6 text-lg text-foreground/80 leading-relaxed">
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 leading-relaxed">
             Take a visual journey through Kanak Optical. Explore our curated collections of designer eyewear, get a glimpse of our clinical facilities, and see the dedicated team ready to serve you.
           </p>
         </motion.div>

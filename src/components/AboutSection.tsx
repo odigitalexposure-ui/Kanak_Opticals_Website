@@ -12,14 +12,14 @@ export function AboutSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.6 }}
-          className="max-w-3xl"
+          className="mx-auto max-w-4xl text-center"
         >
           <p className="text-xs uppercase tracking-[0.25em] text-primary font-semibold">Our Heritage</p>
           <h2 className="mt-3 text-4xl font-extrabold sm:text-5xl lg:text-6xl">
             <span className="text-gradient">A legacy of</span>{" "}
             <span className="text-gradient-gold">clear vision.</span>
           </h2>
-          <p className="mt-6 text-lg leading-relaxed text-foreground/80">
+          <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-foreground/80">
             Kanak Optical was established with a singular, unwavering mission: to ensure everyone experiences the world with absolute clarity and style. For decades, under the meticulous care and expertise of <span className="text-primary font-semibold">Asim Bera</span>, we have been Howrah's trusted destination for precision eye testing, honest clinical advice, and a globally sourced collection of premium eyewear.
           </p>
         </motion.div>

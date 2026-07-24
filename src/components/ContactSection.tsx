@@ -36,18 +36,18 @@ export function ContactSection() {
     <section id="contact" className="relative py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.6 }}
-          className="max-w-3xl"
-        >
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.6 }}
+            className="mx-auto max-w-4xl text-center"
+          >
           <p className="text-xs uppercase tracking-[0.25em] text-primary font-semibold">Get in Touch</p>
           <h2 className="mt-3 text-4xl font-extrabold sm:text-5xl lg:text-6xl">
             <span className="text-gradient">Let's talk</span>{" "}
             <span className="text-gradient-gold">eyewear.</span>
           </h2>
-          <p className="mt-6 text-lg text-foreground/80 leading-relaxed">
+          <p className="mx-auto mt-6 max-w-3xl text-lg text-foreground/80 leading-relaxed">
             Ready to upgrade your vision? Visit our Howrah showroom for a personalized consultation, give us a call, or send an enquiry directly to our WhatsApp for immediate assistance.
           </p>
         </motion.div>
