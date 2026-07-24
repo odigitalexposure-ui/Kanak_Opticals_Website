@@ -264,11 +264,12 @@ export function ContactSection() {
           >
             <iframe
               title="Kanak Optical Store Location on Google Maps"
-              src="https://www.google.com/maps?q=Ramrajatala+Station+Road,+Howrah,+West+Bengal+711104&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7576537788914!2d88.29415177599927!3d22.588165632398294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02786851eaaac9%3A0x2b4ee6b6fec00efe!2sKanak%20Optical!5e0!3m2!1sen!2sus!4v1784881308205!5m2!1sen!2sus"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="absolute inset-0 h-full w-full border-0"
             />
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.7576537788914!2d88.29415177599927!3d22.588165632398294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02786851eaaac9%3A0x2b4ee6b6fec00efe!2sKanak%20Optical!5e0!3m2!1sen!2sus!4v1784881308205!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> */}
           </motion.div>
         </div>
       </div>
