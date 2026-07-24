@@ -81,13 +81,15 @@ export function Footer() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-center text-xs text-muted-foreground sm:flex-row sm:px-6 sm:text-left lg:px-8">
           <p>© {new Date().getFullYear()} Kanak Optical · All rights reserved.</p>
           <p className="flex flex-wrap items-center justify-center gap-1">
-            <span>Built, developed &amp; designed by</span>
+            <span> Developed &amp; designed by</span>
             <a
-              href="#"
-              className="rounded-full bg-gold px-3 py-1 font-semibold text-primary-foreground shadow-md transition-transform hover:scale-105"
+              href="https://www.teamdeoskolkata.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:text-red-700 transition-colors duration-300 ml-1"
             >
-              DeosTeam Kolkata
-            </a>
+              Digital Exposure Online Service 
+            </a>.
           </p>
         </div>
       </div>
