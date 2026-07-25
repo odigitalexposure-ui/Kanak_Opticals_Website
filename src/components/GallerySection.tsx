@@ -15,6 +15,14 @@ import g10 from "@/assets/gallery-10.png"
 import g11 from "@/assets/gallery-11.png"
 import g12 from "@/assets/gallery-12.png"
 import optical_lens from "@/assets/optical_lens.png";
+import nova_lens from "@/assets/nova_lens.jpg";
+import nova1 from "@/assets/nova1.jpg";
+import zeiss_lens from "@/assets/zeiss_lens.jpg";
+import zeiss1 from "@/assets/zeiss1.jpg";
+import clara_lens from "@/assets/clara_lens.webp";
+import clara1 from "@/assets/clara1.jpg";
+import essilor_lens from "@/assets/essilor_lens.jpg";
+import essilor1 from "@/assets/essilor1.webp";
 
 const galleryItems = [
   { src: g1, span: "md:col-span-2 md:row-span-2", alt: "Curated designer eyeglasses on marble display" },
@@ -31,6 +39,14 @@ const galleryItems = [
   { src: g10, span: "md:col-span-2", alt: "High-index premium optical lens display" },
   { src: g11, span: "md:col-span-2", alt: "High-index premium optical lens display" },
   { src: g12, span: "md:col-span-2", alt: "High-index premium optical lens display" },
+  { src: nova_lens, span: "md:col-span-2", alt: "Nova premium optical lens display" },
+  { src: nova1, span: "md:col-span-2", alt: "Nova premium optical lens display" },
+  { src: zeiss_lens, span: "md:col-span-2", alt: "Zeiss premium optical lens display" },
+  { src: zeiss1, span: "md:col-span-2", alt: "Zeiss premium optical lens display" },
+  { src: clara_lens, span: "md:col-span-2", alt: "Clara premium optical lens display" },
+  { src: clara1, span: "md:col-span-2", alt: "Clara premium optical lens display" },
+  { src: essilor_lens, span: "md:col-span-2", alt: "essilor premium optical lens display" },
+  { src: essilor1, span: "md:col-span-2", alt: "essilor premium optical lens display" }
 ];
 
 export function GallerySection() {

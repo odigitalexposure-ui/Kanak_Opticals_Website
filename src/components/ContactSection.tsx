@@ -91,7 +91,7 @@ export function ContactSection() {
             <ul className="mt-4 space-y-4 text-base font-medium">
               <li>
                 <a href="tel:+919874578821" className="flex items-center gap-3 text-foreground/90 hover:text-primary transition-colors">
-                  <Phone className="h-5 w-5 text-primary" /> +91 98745 78821
+                  <Phone className="h-5 w-5 text-primary" /> +91 9433341493
                 </a>
               </li>
               <li>
