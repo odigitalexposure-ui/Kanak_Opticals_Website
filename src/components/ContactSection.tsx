@@ -4,7 +4,7 @@ import { useState } from "react";
 import { z } from "zod";
 import visiting_card from "@/assets/visiting_card.png"
 
-const WA_NUMBER = "919874578821";
+const WA_NUMBER = "+919433341493";
 
 const schema = z.object({
   name: z.string().trim().min(2, "Please enter your name").max(80),
