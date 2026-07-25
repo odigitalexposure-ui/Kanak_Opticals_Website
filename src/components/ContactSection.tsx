@@ -232,7 +232,7 @@ export function ContactSection() {
                 value={form.phone}
                 onChange={(v) => setForm({ ...form, phone: v })}
                 error={errors.phone}
-                placeholder="+91 98765 43210"
+                placeholder="+91 9433341493"
               />
               <div>
                 <label className="mb-2 block text-sm font-semibold tracking-wide">Message</label>
